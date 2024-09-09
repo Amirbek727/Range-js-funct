@@ -21,8 +21,22 @@
 //    }
 //     console.log(son); 
 //     son = son + 3;
+console.log("from 50 to 0")
+function num(a, b) {
+  while (a >= b) { 
+      console.log(a);
+      a = a - 2; 
+  }
+}
+
+num(50, 0);
+
+  
 
 
+
+
+console.log("from 50 to 100")
 function range(a, b) {
   while (a <=b ) {
     console.log(a);
@@ -30,3 +44,4 @@ function range(a, b) {
   }
 }
 range(50, 100);
+
